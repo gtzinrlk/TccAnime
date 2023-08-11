@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans:wght@200&display=swap');
+@import url('https://www.fontget.com/font/death-note/');
+@font-face {
+    font-family: JujutsuKaisen;
+    src: url(../fonts/JujutsuKaisen.ttf) format('truetype');
+}
+@font-face {
+    font-family: Dragonball;
+    src: url(../fonts/Dragonball.ttf) format('truetype');
+}
+body, html{
+    width: 90%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+
+}
+input::placeholder{
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.Home-Bar{
+    position: relative;
+    background-color: rgb(104, 91, 216);
+    list-style: none;
+    width: 1442px;
+    height: 45px;
+    left: -10px;
+    top: 80px;
+    border-radius: 10px;
+}
+.Home-browser{
+    position: relative;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    left: 770px;
+    top: 45px;
+
+}
+.Home-Line{
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    width: 170px;
+    height: 1px;
+    left: 1196px;
+    top: 120px;
+}
+.Home-lobby{
+    position: relative;
+    color: whitesmoke;
+    left: 20px;
+    top: 45px;
+}
+.Home-catalog{
+    position: relative;
+    color: white;
+    left: 70px;
+    top: 45px;
+}
+.Home-random{
+    position: relative;
+    color: white;
+    left: 120px;
+    top: 45px;
+}
+.Home-mylist{
+    position: relative;
+    color: white;
+    left: 170px;
+    top: 45px;
+}
+.Home-history{
+    position: relative;
+    color: white;
+    left: 220px;
+    top: 45px;
+}
+.Home-report{
+    position: relative;
+    color: white;
+    left: 270px;
+    top: 45px;
+}
+.Home-name{
+    position: relative;
+    color: white;
+    font-family: JujutsuKaisen;
+    text-align: center;
+    top: -70px;
+    left: -450px;
+}
+.Home-name2{
+    position: relative;
+    color: white;
+    font-family: Dragonball;
+    text-align: center;
+    top: -120px;
+    left: -270px;
+}
+
